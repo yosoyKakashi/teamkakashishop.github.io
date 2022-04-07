@@ -1,0 +1,66 @@
+body {
+    margin: 3px;
+    background-color: aliceblue;
+    font-family:'Nerko one', cursive;
+}
+
+
+.page-nav {
+    background-color: aqua;
+    border: 5px solid rgb(0, 255, 30);
+}
+
+.page-nav h1{
+    margin: 24px;
+}
+
+
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+
+.product-container{
+    margin: 25px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    background-color: white;
+}
+
+.product-container:hover{
+    box-shadow: 0 18px 16px 0 rgb(0, 0, 0);
+}
+
+.product-container img{
+    width: 300px;
+}
+
+.product-container h2{
+    margin-bottom: 17px;
+    margin-left: 5px;
+}
+
+.button-add{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 5px solid rgb(0, 255, 30);
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover{
+    background-color: rgb(0, 255, 51);
+    color: rgb(0, 0, 0);
+}
